@@ -145,11 +145,58 @@
 
 /* Buttons */
 .banner-buttons {
-  margin-top: 24px;
   display: flex;
+  gap: 16px;
   justify-content: center;
-  gap: 14px;
+  flex-wrap: wrap;
 }
+
+/* Common button */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 12px 22px;
+  border-radius: 999px;
+
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+
+  transition: all 0.3s ease;
+}
+
+/* Icon image */
+.btn-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+/* Spotify button */
+.spotify-btn {
+  color: #ffffff;
+  background: linear-gradient(135deg, #ffb703, #ff00c8);
+}
+
+.spotify-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(255, 0, 200, 0.35);
+}
+
+/* Subscribe button */
+.subscribe-btn {
+  color: #00ff88;
+  border: 1.5px solid #00ff88;
+  background: transparent;
+}
+
+.subscribe-btn:hover {
+  background: rgba(0, 255, 136, 0.12);
+  transform: translateY(-2px);
+}
+
 
 .btn {
   padding: 10px 20px;
@@ -542,4 +589,94 @@
   font-size: 14px;
   color: #bdb7d6;
 }
+
+@media (max-width: 576px) {
+
+ 
+  section {
+    padding: 60px 16px;
+  }
+
+  .section-title {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  /* Hero */
+  .hero-content {
+    text-align: center;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  /* About */
+  .about-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  /* Why Choose / Features */
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-card {
+    grid-column: auto !important;
+    grid-row: auto !important;
+  }
+
+  /* Featured Episodes */
+  .episodes-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .episode-image {
+    height: 200px;
+  }
+
+  /* Meet the Host */
+  .host-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .host-social {
+    justify-content: center;
+  }
+
+  /* Footer */
+  .footer-platforms {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+  .hero-section {
+    min-height: auto;
+    padding: 60px 16px;
+  }
+
+  .hero-content {
+  width: 100%;
+  max-width: 440px;   
+  text-align: center;
+}
+
+}
+
 
