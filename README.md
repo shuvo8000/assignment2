@@ -202,7 +202,7 @@ No frameworks or external JavaScript libraries are required.
 
 ## 📂 Project Structure
 
-techwave-podcast-landing-page/
+```techwave-podcast-landing-page/
 │
 ├── index.html
 ├── style.css
@@ -226,6 +226,7 @@ techwave-podcast-landing-page/
 │   └── hero-circle.png
 │
 └── README.md
+```
 
 🚀 Getting Started
 1. Clone the Repository
