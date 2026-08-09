@@ -226,7 +226,7 @@ No frameworks or external JavaScript libraries are required.
 │   └── hero-circle.png
 │
 └── README.md
-```
+
 
 🚀 Getting Started
 1. Clone the Repository
