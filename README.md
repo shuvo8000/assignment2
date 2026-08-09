@@ -8,7 +8,7 @@ The website features a dark futuristic interface with vibrant gradient colors, p
 
 ## 🌐 Live Preview
 
-🔗 **Live Demo:** Coming Soon
+🔗 **Live Demo:  https://shuvo8000.github.io/techwave-podcast-landing-page/
 
 ---
 
